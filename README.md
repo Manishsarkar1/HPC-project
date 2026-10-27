@@ -48,3 +48,7 @@ Useful options:
 
 SciPy is optional. When installed, the program also uses it as an independent connected-components check during `--verify`.
 
+## GUI dashboard
+
+Open `dist\\HPCGraphVisualizer\\HPCGraphVisualizer.exe` to configure a run and view the results. The dashboard shows a results table and bar charts for parallel runtime, communication time, and compute imbalance. It requires Microsoft MPI or another compatible `mpiexec` installation for multi-process benchmarks.
+
